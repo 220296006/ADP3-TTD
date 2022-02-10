@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 
 public class ArraysOfObjectsTest {
 
-    /** Testing for Object Identity
+    /** Testing for FailTest
      */
     @Test
     public void test() {
@@ -22,7 +22,7 @@ public class ArraysOfObjectsTest {
             studentList.add(student);
 
         }
-        assertSame( 4, studentList.size());
+        fail();
 
     }
 }
